@@ -116,9 +116,10 @@ var Header = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
+        Header,
         null,
-        'Header'
+        _react2.default.createElement('div', null),
+        _react2.default.createElement('ul', null)
       );
     }
   }]);

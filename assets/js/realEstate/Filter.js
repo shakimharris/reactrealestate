@@ -21,6 +21,11 @@ export default class Filter extends Component {
     <option>2 bedrooms </option>
     </select>
     <div class="filters-prices">
+    <input type="text" className="min-price">
+    </input>
+    <input type="text" className="max-price">
+    </input>
+
     </div>
     </section>)
   }

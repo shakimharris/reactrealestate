@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 
-class Layout extends Component {
+class App extends Component {
   constructor () {
     super()
     this.state = {

@@ -5,7 +5,7 @@ export default class Header extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Shakim'
     }
   }
 
@@ -18,7 +18,6 @@ export default class Header extends Component {
       <a href="#">about us</a>
       <a href="#" className="register-btn">Register</a>
        </nav>
-
 
       </header>)
   }

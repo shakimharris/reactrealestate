@@ -13,7 +13,7 @@ export default class Header extends Component {
   }
   render () {
     return (<Header>
-      <div></div>
+      <div>Logo</div>
       <nav>
       <a href="#">create ads</a>
       <a href="#">about us</a>

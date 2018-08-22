@@ -18,4 +18,4 @@ export default class Header extends Component {
 
 const app = document.getElementById('app')
 
-ReactDOM.render(<App />, app)
+ReactDOM.render(<Header />, app)

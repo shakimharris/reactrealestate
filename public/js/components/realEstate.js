@@ -52,7 +52,7 @@ var App = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'Real Estate'
+        _react2.default.createElement(_Header2.default, null)
       );
     }
   }]);
@@ -131,7 +131,7 @@ exports.default = Header;
 
 var app = document.getElementById('app');
 
-_reactDom2.default.render(_react2.default.createElement(App, null), app);
+_reactDom2.default.render(_react2.default.createElement(Header, null), app);
 
 /***/ })
 

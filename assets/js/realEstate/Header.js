@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 
-class App extends Component {
+class Header extends Component {
   constructor () {
     super()
     this.state = {

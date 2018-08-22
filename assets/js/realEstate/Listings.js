@@ -9,9 +9,9 @@ export default class Listings extends Component {
     }
   }
 
-  render (<section className="Listings">Listings
-          </section>
-) {
-    return ()
+  render () {
+    return () (<section className="Listings">
+            Listings
+            </section>)
   }
 }

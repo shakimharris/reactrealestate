@@ -13,7 +13,9 @@ class App extends Component {
     console.log('swag')
   }
   render () {
-    return (<div><Header />
+    return (<div>
+      <Header />
+      <Filter />
       </div>)
   }
 }

@@ -53,7 +53,8 @@ var App = function (_Component) {
         'div',
         null,
         _react2.default.createElement(_Header2.default, null),
-        _react2.default.createElement(Filter, null)
+        _react2.default.createElement(Filter, null),
+        _react2.default.createElement(Listings, null)
       );
     }
   }]);

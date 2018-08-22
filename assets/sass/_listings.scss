@@ -3,10 +3,10 @@ header {
   color: white;
   nav (
   a {
-    color:white;
-    &:hover(
-    color: #FF718E;
-    )
-  }
-  )
+     color:white;
+     &:hover{
+     color: #FF718E;
+   }
+ }
+)
 }

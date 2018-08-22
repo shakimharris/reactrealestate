@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 
 
-export default class Header extends Component {
+export default class Filter extends Component {
   constructor () {
     super()
     this.state = {
@@ -9,7 +9,8 @@ export default class Header extends Component {
     }
   }
   render () {
-    return (<section className="Filter">Filter
+    return (<section className="Filter">
+    Filter
     </section>)
   }
 }

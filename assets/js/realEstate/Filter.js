@@ -20,6 +20,8 @@ export default class Filter extends Component {
     <select name="bedrooms" class="bedrooms">
     <option>2 bedrooms </option>
     </select>
+    <div class="filters-prices">
+    </div>
     </section>)
   }
 }

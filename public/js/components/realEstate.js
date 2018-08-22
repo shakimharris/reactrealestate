@@ -176,7 +176,11 @@ var Filter = function (_Component) {
       return _react2.default.createElement(
         'section',
         { className: 'Filter' },
-        'Filter'
+        _react2.default.createElement(
+          'h4',
+          null,
+          'Filter'
+        )
       );
     }
   }]);

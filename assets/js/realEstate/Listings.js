@@ -9,7 +9,7 @@ export default class Listings extends Component {
     }
   }
 
-  render (<section className="listings">
+  render (<section className="Listings">Listings
           </section>
 ) {
     return ()

@@ -12,21 +12,24 @@ export default class Filter extends Component {
     return (<section className="Filter">
     <h4>Filter</h4>
     <select name="neighborhood" class="neighborhood">
-    <option>Los Angeles </option>
+      <option>Los Angeles </option>
     </select>
     <select name="housetypes" class="housetypes">
-    <option>Townhomes </option>
+      <option>Townhomes </option>
     </select>
     <select name="bedrooms" class="bedrooms">
-    <option>2 bedrooms </option>
+      <option>2 bedrooms </option>
     </select>
     <div class="filters-prices">
-    <input type="text" className="min-price">
-    </input>
-    <input type="text" className="max-price">
-    </input>
-
-    </div>
+      <span className="title"> Price </span>
+      <input type="text" name="min-price" className="min-price"/>
+      <input type="text" name="max-price" className="max-price"/>
+   </div>
+    <div class="filters-floorspace">
+        <span className="title"> Price </span>
+        <input type="text" name="min-floorspace" className="min-floorspace"/>
+        <input type="text" name="max-floorspace" className="max-floorspace"/>
+       </div>
     </section>)
   }
 }

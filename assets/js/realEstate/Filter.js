@@ -10,9 +10,6 @@ export default class Header extends Component {
   }
   render () {
     return (<section className="Filter">Filter
-    </section>>
-
-
-      </header>)
+    </section>)
   }
 }

@@ -116,9 +116,13 @@ var Header = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        Header,
+        'header',
         null,
-        _react2.default.createElement('div', null),
+        _react2.default.createElement(
+          'div',
+          null,
+          'Logo'
+        ),
         _react2.default.createElement(
           'nav',
           null,
@@ -127,15 +131,16 @@ var Header = function (_Component) {
             { href: '#' },
             'create ads'
           ),
-          _react2.default.createElement(
-            'a',
-            { href: '#' },
-            'about us'
-          ),
+          '//',
           _react2.default.createElement(
             'a',
             { href: '#' },
             'log in'
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: '#' },
+            'about us'
           ),
           _react2.default.createElement(
             'a',

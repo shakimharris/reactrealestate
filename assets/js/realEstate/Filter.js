@@ -11,7 +11,7 @@ export default class Filter extends Component {
   render () {
     return (<section className="Filter">
     <h4>Filter</h4>
-    <select  name="neighborhood">
+    <select name="neighborhood" class="neighborhood">
     <option>Teohotiuacan </option>
     </select>
     </section>)

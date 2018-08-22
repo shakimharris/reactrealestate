@@ -118,7 +118,7 @@ var Header = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'Real Estate'
+        'Header'
       );
     }
   }]);

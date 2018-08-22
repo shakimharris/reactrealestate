@@ -3,7 +3,7 @@ webpackJsonp([0],{
 /***/ 100:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Listings.js: Unexpected token (14:0)\n\n  12 |    )\n  13 |   }\n> 14 | \n     | ^\n");
+throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Listings.js: Unexpected token (12:10)\n\n  10 |   }\n  11 | \n> 12 |   render (<section className=\"Listings\">Listings\n     |           ^\n  13 |           </section>\n  14 | ) {\n  15 |     return ()\n");
 
 /***/ }),
 
@@ -90,7 +90,7 @@ _reactDom2.default.render(_react2.default.createElement(App, null), app);
 /***/ 98:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Filter.js: Unexpected token (15:0)\n\n  13 |   return(<section className=\"filter\">Filter</section>)\n  14 | }\n> 15 | \n     | ^\n");
+throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Filter.js: Unexpected token (16:7)\n\n  14 | \n  15 | \n> 16 |       </header>)\n     |        ^\n  17 |   }\n  18 | }\n  19 | \n");
 
 /***/ }),
 

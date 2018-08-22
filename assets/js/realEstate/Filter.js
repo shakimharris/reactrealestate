@@ -9,7 +9,7 @@ export default class Header extends Component {
     }
   }
   render () {
-    return (<section className="listings">
+    return (<section className="Filter">Filter
     </section>>
 
 

@@ -120,7 +120,7 @@ var Header = function (_Component) {
         null,
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'Logo' },
           'Logo'
         ),
         _react2.default.createElement(

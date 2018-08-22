@@ -5,9 +5,12 @@ export default class Listings extends Component {
     this.state = {
       name: 'Shakim'
     }
+
+
+    render() {
+     return(<section className="listings">Listings</section>
+   )
+
+
   }
-
-
-const app = document.getElementById('app')
-
-ReactDOM.render(<Listings />, app)
+}

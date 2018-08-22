@@ -18,4 +18,4 @@ class App extends Component {
 
 const app = document.getElementById('app')
 
-ReactDOM.render(<Layout />, app)
+ReactDOM.render(<App />, app)

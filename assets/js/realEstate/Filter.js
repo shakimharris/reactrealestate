@@ -10,7 +10,7 @@ export default class Filter extends Component {
   }
   render () {
     return (<section className="Filter">
-    Filter
+    <h4>Filter</h4>
     </section>)
   }
 }

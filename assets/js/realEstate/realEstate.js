@@ -12,7 +12,7 @@ class App extends Component {
     console.log('swag')
   }
   render () {
-    return ()
+    return (<div>Real Estate</div>)
   }
 }
 

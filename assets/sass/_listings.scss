@@ -1,7 +1,11 @@
 header {
   background: #0B002A;
   color: white;
+  .logo {
+    float-left;
+  }
   nav (
+  float: right;
   a {
      color:white;
      &:hover{
@@ -9,7 +13,5 @@ header {
    }
  }
 )
-.logo {
-  float-left;
-}
+
 }

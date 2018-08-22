@@ -14,6 +14,8 @@ export default class Header extends Component {
   render () {
     return (<Header>
       <div></div>
+      <ul>
+      </ul>
       </Header>)
   }
 }

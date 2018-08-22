@@ -13,7 +13,8 @@ class App extends Component {
     console.log('swag')
   }
   render () {
-    return (<div>Real Estate</div>)
+    return (<div><Header />
+      </div>)
   }
 }
 

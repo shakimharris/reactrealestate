@@ -119,7 +119,25 @@ var Header = function (_Component) {
         Header,
         null,
         _react2.default.createElement('div', null),
-        _react2.default.createElement('nav', null)
+        _react2.default.createElement(
+          'nav',
+          null,
+          _react2.default.createElement(
+            'a',
+            { href: '#' },
+            'create ads'
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: '#' },
+            'about us'
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: '#' },
+            'log in'
+          )
+        )
       );
     }
   }]);

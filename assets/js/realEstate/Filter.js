@@ -1,15 +1,18 @@
 import React, { Component} from 'react'
 
 
-export default class Filter extends Component {
+export default class Header extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Shakim'
+
     }
   }
+  render () {
+    return (<section className="listings">
+    </section>>
 
 
-const app = document.getElementById('app')
-
-ReactDOM.render(<Filter />, app)
+      </header>)
+  }
+}

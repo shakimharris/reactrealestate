@@ -12,7 +12,9 @@ export default class Header extends Component {
     console.log('swag')
   }
   render () {
-    return (<div>Header</div>)
+    return (<Header>
+      <div></div>
+      </Header>)
   }
 }
 

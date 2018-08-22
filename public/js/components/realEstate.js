@@ -119,7 +119,7 @@ var Header = function (_Component) {
         Header,
         null,
         _react2.default.createElement('div', null),
-        _react2.default.createElement('ul', null)
+        _react2.default.createElement('nav', null)
       );
     }
   }]);

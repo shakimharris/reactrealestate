@@ -11,10 +11,8 @@ class App extends Component {
     this.state = {
       name: 'Joe'
     }
-  }
-  clickedBtn = () => {
-    console.log('swag')
-  }
+}
+
   render () {
     return (<div>
       <Header />

@@ -8,9 +8,7 @@ export default class Header extends Component {
       name: 'Joe'
     }
   }
-  clickedBtn = () => {
-    console.log('swag')
-  }
+
   render () {
     return (<header>
       <div className="Logo">Logo</div>
@@ -25,7 +23,3 @@ export default class Header extends Component {
       </header>)
   }
 }
-
-const app = document.getElementById('app')
-
-ReactDOM.render(<Header />, app)

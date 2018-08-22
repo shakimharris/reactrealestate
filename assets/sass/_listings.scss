@@ -14,11 +14,14 @@ header {
 
   a {
      color:white;
+     text-decoration: none;
+     padding: 15px 25px;
+
      &:hover{
      color: #FF718E;
    }
    &.register-btn{
-     color: $pink;
+     color: pink;
      padding: 15px 25px;
      text-align: center;
      color: white;

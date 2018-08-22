@@ -1,15 +1,22 @@
 header {
   background: #0B002A;
   color: white;
+  overflow: auto;
+  padding: 15px 20px;
+
+
+
   .logo {
     float: left;
   }
   nav {
   float: right;
+
   a {
      color:white;
      &:hover{
      color: #FF718E;
    }
  }
+}
 }

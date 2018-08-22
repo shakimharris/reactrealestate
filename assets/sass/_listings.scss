@@ -4,6 +4,9 @@ header {
   nav (
   a {
     color:white;
+    &:hover(
+    color: #FF718E;
+    )
   }
   )
 }

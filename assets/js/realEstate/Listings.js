@@ -1,13 +1,13 @@
 import React, { Component} from 'react'
-export default class Header extends Component {
+export default class Listings extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Shakim'
     }
   }
 
 
 const app = document.getElementById('app')
 
-ReactDOM.render(<Header />, app)
+ReactDOM.render(<Listings />, app)

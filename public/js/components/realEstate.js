@@ -1,6 +1,13 @@
 webpackJsonp([0],{
 
 /***/ 100:
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Listings.js: Unexpected token (11:6)\n\n   9 | \n  10 | \n> 11 | const app = document.getElementById('app')\n     |       ^\n  12 | \n  13 | ReactDOM.render(<Listings />, app)\n  14 | \n");
+
+/***/ }),
+
+/***/ 102:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16,9 +23,17 @@ var _reactDom = __webpack_require__(25);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Header = __webpack_require__(98);
+var _Header = __webpack_require__(99);
 
 var _Header2 = _interopRequireDefault(_Header);
+
+var _Listings = __webpack_require__(100);
+
+var _Listings2 = _interopRequireDefault(_Listings);
+
+var _Filter = __webpack_require__(98);
+
+var _Filter2 = _interopRequireDefault(_Filter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -53,8 +68,12 @@ var App = function (_Component) {
         'div',
         null,
         _react2.default.createElement(_Header2.default, null),
-        _react2.default.createElement(Filter, null),
-        _react2.default.createElement(Listings, null)
+        _react2.default.createElement(
+          'section',
+          { id: 'content-area' },
+          _react2.default.createElement(_Filter2.default, null),
+          _react2.default.createElement(_Listings2.default, null)
+        )
       );
     }
   }]);
@@ -69,6 +88,13 @@ _reactDom2.default.render(_react2.default.createElement(App, null), app);
 /***/ }),
 
 /***/ 98:
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: SyntaxError: C:/Users/Nesu Bity/Desktop/react/realestate/assets/js/realEstate/Filter.js: Unexpected token (11:0)\n\n   9 |     }\n  10 |   }\n> 11 | \n     | ^\n");
+
+/***/ }),
+
+/***/ 99:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -166,4 +192,4 @@ _reactDom2.default.render(_react2.default.createElement(Header, null), app);
 
 /***/ })
 
-},[100]);
+},[102]);

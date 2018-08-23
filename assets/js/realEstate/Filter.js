@@ -37,7 +37,7 @@ export default class Filter extends Component {
        </label>
        <label for="extras">
        <span>Finished Basement<span>
-       <input name="extras" type="checkbox">
+       <input name="extras" value="finished-basement" type="checkbox">
        </label>
        </div>
     </section>)

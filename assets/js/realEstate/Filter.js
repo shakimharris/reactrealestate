@@ -31,7 +31,7 @@ export default class Filter extends Component {
         <input type="text" name="max-floorspace" className="max-floorspace"/>
        </div>
        <div className="filters extras">
-       <label>Elevator</label>
+       <label for="extras">Elevator</label>
        </div>
     </section>)
   }

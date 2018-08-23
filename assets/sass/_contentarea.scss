@@ -26,5 +26,9 @@
       font-size: 0.9rem;
       display: block;
     }
+    input [type="text"]{
+      display: inline-block;
+      width: 50%;
+    }
   }
 }

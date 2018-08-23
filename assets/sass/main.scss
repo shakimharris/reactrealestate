@@ -6,6 +6,7 @@ body,
 html {
   font-family: 'Roboto', sans-serif;
   // background: purple;
+  box-sizing: border-box;
 }
 @import "listings";
 @import "variables";

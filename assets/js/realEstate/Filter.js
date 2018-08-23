@@ -30,6 +30,8 @@ export default class Filter extends Component {
         <input type="text" name="min-floorspace" className="min-floorspace"/>
         <input type="text" name="max-floorspace" className="max-floorspace"/>
        </div>
+       <div className="filters extras">
+       </div>
     </section>)
   }
 }

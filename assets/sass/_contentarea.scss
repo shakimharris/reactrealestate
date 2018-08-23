@@ -41,6 +41,11 @@
     label {
       display: block;
       width: 100%;
+      padding: 10px;
+
+      input[type="checkbox"]{
+      float:right;
+    }
     }
   }
     }

@@ -26,7 +26,7 @@ export default class Filter extends Component {
       <input type="text" name="max-price" className="max-price"/>
    </div>
     <div class="filters floorspace">
-        <span className="title"> Price </span>
+        <span className="floorspace"> Floor space</span>
         <input type="text" name="min-floorspace" className="min-floorspace"/>
         <input type="text" name="max-floorspace" className="max-floorspace"/>
        </div>

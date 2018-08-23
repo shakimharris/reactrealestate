@@ -5,12 +5,10 @@ export default class Header extends Component {
   constructor () {
     super()
     this.state = {
-      name: 'Joe'
+      name: 'Shakim'
     }
   }
-  clickedBtn = () => {
-    console.log('swag')
-  }
+
   render () {
     return (<header>
       <div className="Logo">Logo</div>
@@ -21,11 +19,6 @@ export default class Header extends Component {
       <a href="#" className="register-btn">Register</a>
        </nav>
 
-
       </header>)
   }
 }
-
-const app = document.getElementById('app')
-
-ReactDOM.render(<Header />, app)

@@ -11,7 +11,10 @@ export default class Listings extends Component {
 
   render () {
     return (<section className="listings">
-            Listings
+            <section className="search-area">
+            <section className="listings-results">
+            </section>
+           </section>
             </section>)
   }
 }

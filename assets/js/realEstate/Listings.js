@@ -12,7 +12,7 @@ export default class Listings extends Component {
   render () {
     return (<section className="listings">
             <section className="search-area">
-
+            <input type="text" name="search" />
             </section>
 
             <section className="sort-by">

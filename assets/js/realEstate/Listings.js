@@ -27,7 +27,7 @@ export default class Listings extends Component {
             <i className="fas fa-th" aria-hidden="true"></i>
             </div>
 
-            </div>
+            </section>
             </section>
 
             <section className="listings-results">

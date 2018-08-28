@@ -41,7 +41,7 @@ export default class Listings extends Component {
                   <span className="post-date">08/28/18</span>
                 </div>
                 <div className="listing-details">
-                 <div className="floor-space">1,000 feet </div>
+                 <div className="floor-space">1,000 feet&sup2;</div>
 
                 </div>
                </div>

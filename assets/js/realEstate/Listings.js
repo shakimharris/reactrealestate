@@ -35,7 +35,10 @@ export default class Listings extends Component {
              <div className="listing-img">
               <span className="Address">Address</span>
                <div className="details">
-
+                <div className="user-img">
+                  <div className="user-details">
+                   </div> 
+                </div>
                </div>
              </div>
             </div>

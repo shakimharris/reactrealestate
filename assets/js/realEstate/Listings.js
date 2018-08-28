@@ -23,7 +23,8 @@ export default class Listings extends Component {
             <option value="price-dsc">Lowest Price</option>
             </section>
             <div className="view">
-            <i className="fas fa-th-list"></i>
+            <i className="fas fa-th-list" aria-hidden="true"></i>
+            <i className="fas fa-th" aria-hidden="true"></i>
             </div>
 
 

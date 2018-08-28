@@ -37,12 +37,14 @@ export default class Listings extends Component {
                <div className="details">  </div>
                 <div className="user-img">
                   <div className="user-details">
-
                   <span className="user-name">Nina Smith</span>
                   <span className="post-date">08/28/18</span>
+                </div>
+                <div className="listing-details">
 
                 </div>
                </div>
+
              </div>
             </div>
 

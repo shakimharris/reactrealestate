@@ -27,7 +27,7 @@ export default class Listings extends Component {
             <i className="fas fa-th" aria-hidden="true"></i>
             </div>
 
-
+            </div>
             </section>
 
             <section className="listings-results">
@@ -41,7 +41,8 @@ export default class Listings extends Component {
                   <span className="post-date">08/28/18</span>
                 </div>
                 <div className="listing-details">
-                 <div className="floor-space"><i className="fa fa-square-o" aria-hidden="true"></i>
+                 <div className="floor-space">
+                 <i className="fa fa-square-o" aria-hidden="true"></i>
                   </div>
                  <span>1,000 feet&sup2;</span>
                  </div>

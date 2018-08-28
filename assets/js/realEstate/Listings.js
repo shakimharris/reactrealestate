@@ -16,13 +16,14 @@ export default class Listings extends Component {
             </section>
 
             <section className="sort-area">
-            <div>390 results found</div
+            <div>390 results found</div>
             <div className="sort-options">
             <section name="sort-by" className="sortby">
             <option value="price-asc">Highest Price</option>
             <option value="price-dsc">Lowest Price</option>
             </section>
-
+            <div className="view">
+            
             </div>
 
 

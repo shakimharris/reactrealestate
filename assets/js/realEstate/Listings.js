@@ -19,7 +19,7 @@ export default class Listings extends Component {
             <div>390 results found</div
             <div className="sort-options">
             <section name="sort-by" className="sortby">
-            <option value="price-asc">Price</option>
+            <option value="price-asc">Highest Price</option>
             </section>
 
             </div>

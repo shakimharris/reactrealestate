@@ -41,7 +41,10 @@ export default class Listings extends Component {
                   <span className="post-date">08/28/18</span>
                 </div>
                 <div className="listing-details">
-                 <div className="floor-space"><i className="fa fa-square-o" aria-hidden="true"></i>1,000 feet&sup2;</div>
+                 <div className="floor-space"><i className="fa fa-square-o" aria-hidden="true"></i>
+                  </div>
+                 <span>1,000 feet&sup2;</span>
+                 </div>
                   <div className="bedrooms">
                  <i className="fa fa-bed" aria-hidden="true"></i>
                    </div>

@@ -42,7 +42,9 @@ export default class Listings extends Component {
                 </div>
                 <div className="listing-details">
                  <div className="floor-space"><i className="fa fa-square-o" aria-hidden="true"></i>1,000 feet&sup2;</div>
+                  <div className="bedrooms">
                  <i className="fa fa-bed" aria-hidden="true"></i>
+                   </div>
 
                 </div>
                </div>

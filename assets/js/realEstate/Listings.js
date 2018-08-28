@@ -15,10 +15,15 @@ export default class Listings extends Component {
             <input type="text" name="search" />
             </section>
 
-            <section className="sort-by">
-            <div>
-            390 results found
+            <section className="sort-area">
+            <div>390 results found</div
+            <div className="sort-options">
+            <section name="sort-by" className="sortby">
+
+            </section>
+
             </div>
+
 
             </section>
 
